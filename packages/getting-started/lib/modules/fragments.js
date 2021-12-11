@@ -7,13 +7,13 @@ registerFragment(/* GraphQL */`
     name
     isWatched
 
-    # uncomment on #Step10
-    # user{
-    #  displayName
-    # }
+    #  #Step10
+    user{
+      displayName
+    }
 
-    # uncomment on #Step11
-    # score
+    # #Step11
+     score
     
   }
 `);

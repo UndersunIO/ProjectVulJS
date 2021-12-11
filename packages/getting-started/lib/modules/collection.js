@@ -17,22 +17,21 @@ Uncomment on #Step4:
 
 */
 
-// Movies = createCollection({
+ Movies = createCollection({
 
-//   collectionName: 'Movies',
+  collectionName: 'Movies',
+   typeName: 'Movie',
 
-//   typeName: 'Movie',
-
-//   schema,
+   schema,
 
 //   // uncomment on #Step16
-//   // permissions: {
-//   //   canRead: ['guests'],
-//   //   canCreate: ['members'],
-//   //   canUpdate: ['owners'],
-//   //   canDelete: ['owners'],
-//   // },
+ permissions: {
+   canRead: ['guests'],
+   canCreate: ['members'],
+   canUpdate: ['owners'],
+   canDelete: ['owners'],
+ },
 
-// });
+ });
 
 export default Movies;
