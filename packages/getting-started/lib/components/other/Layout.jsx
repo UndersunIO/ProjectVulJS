@@ -1,7 +1,7 @@
 import React from 'react';
 import { replaceComponent, registerComponent } from 'meteor/vulcan:core';
 import Nav from '../other/Nav.jsx';
-import Logo from '../other/Logo.jsx';
+import Logo from '../other/Logo.jsx'; 
 import MoviesApp2 from '../movies/MoviesApp2.jsx';
 
 // replace MoviesApp with MoviesApp2 on #Step15

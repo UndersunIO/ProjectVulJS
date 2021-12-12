@@ -2,7 +2,7 @@
 Customers
 */
 
-import { createCollection } from 'meteor/vulcan:core'
+import { createCollection } from '../../../../candidature/lib/components/movies/node_modules/meteor/vulcan:core'
 import schema from './schema.js'
 import './fragments'
 

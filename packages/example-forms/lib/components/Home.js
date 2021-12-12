@@ -14,6 +14,7 @@ import {
 } from "meteor/vulcan:core";
 import Customers from "../modules/customers/collection";
 
+<Customers />
 const Home = ({ flash }) => (
   <div className="dashboard">
     <Components.FlashMessages />

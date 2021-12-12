@@ -34,4 +34,5 @@ Uncomment on #Step4:
 
  });
 
+
 export default Movies;

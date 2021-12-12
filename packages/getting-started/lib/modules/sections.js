@@ -20,6 +20,7 @@ const sections = [
   `Sorting & Filtering`,
   `Internationalization`,
   `Next Steps`,
+  `Test`,
 ];
 
 export default sections;

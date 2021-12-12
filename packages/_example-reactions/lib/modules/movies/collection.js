@@ -4,8 +4,8 @@ The main Movies collection definition file.
 
 */
 
-import { createCollection, getDefaultResolvers, getDefaultMutations } from 'meteor/vulcan:core';
-import Users from 'meteor/vulcan:users';
+import { createCollection, getDefaultResolvers, getDefaultMutations } from '../../../../candidature/lib/components/movies/node_modules/meteor/vulcan:core';
+import Users from '../../../../candidature/lib/components/movies/node_modules/meteor/vulcan:users';
 import schema from './schema.js';
 
 /*

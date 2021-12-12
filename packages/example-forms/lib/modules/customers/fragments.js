@@ -1,4 +1,4 @@
-import { registerFragment } from 'meteor/vulcan:core';
+import { registerFragment } from '../../../../candidature/lib/components/movies/node_modules/meteor/vulcan:core';
 
 registerFragment(`
   fragment customerFragment on Customer {
@@ -7,15 +7,6 @@ registerFragment(`
     name
     notes
     meetingDate
-    addresses{
-      street
-      country
-      zipCode
-    }
-    categories
-    isVIP
-    product{
-      name
-    }
+    
   }
 `);
