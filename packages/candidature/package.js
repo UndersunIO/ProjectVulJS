@@ -1,13 +1,13 @@
-// packages.js #tutorial-step-2 - Decribes the contents of the package as well as the dependencies.
+
 
 Package.describe({
-  name: 'this-test',
+  name: 'candidature',
 });
 
 Package.onUse(function (api) {
   api.use([
     // Here are our dependencies:
-
+    'fourseven:scss@4.12.0',
     // vulcan core
     'promise',
     'vulcan:core@=1.16.3',
@@ -18,7 +18,7 @@ Package.onUse(function (api) {
     'vulcan:ui-bootstrap@=1.16.3',
   ]);
 
-  api.addFiles('lib/stylesheets/style.css');
+  api.addFiles('lib/stylesheets/style.scss');
 
   // Here is the entry point for client & server:
   api.mainModule('lib/server/main.js', 'server');

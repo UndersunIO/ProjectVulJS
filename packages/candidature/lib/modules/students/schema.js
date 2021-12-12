@@ -1,71 +1,62 @@
 /*
-
-modules/movies/schema.js - #tutorial-step-10 -
 This is a JS object that defines every property of a collection document...
-
 A SimpleSchema-compatible JSON schema
-
 */
-
 const schema = {
   // default properties
 
   _id: {
     type: String,
     optional: true,
-    canRead: ['guests'],
+    canRead: ['admins'],
   },
+  
   createdAt: {
     type: Date,
     optional: true,
-    canRead: ['guests'],
+    canRead: ['admins'],
     onCreate: () => {
       return new Date();
     },
   },
  
-  
-
   // custom properties
 
   name: {
-    label: 'Name',
+    label: 'Prénom',
     type: String,
-    optional: true,
-    canRead: ['guests'],
+    optional: false,
+    canRead: ['members'],
     canCreate: ['members'],
-    canUpdate: ['members'],
+    canUpdate: ['admins'],
   },
 
   lastname: {
-    label: 'Lastname',
+    label: 'Nom',
     type: String,
-    optional: true,
-    canRead: ['guests'],
+    optional: false,
+    canRead: ['members'],
     canCreate: ['members'],
-    canUpdate: ['members'],
+    canUpdate: ['admins'],
   },
 
   age: {
     label: 'Age',
     type: Number,
-    optional: true,
-    canRead: ['guests'],
+    optional: false,
+    canRead: ['members'],
     canCreate: ['members'],
-    canUpdate: ['members'],
+    canUpdate: ['admins'],
     min: 1,
-    max: 100,
+    max: 120,
   },
 
   isSelected: {
     label: 'Selected?',
     type: Boolean,
     optional: true,
-    canRead: ['members'],
-    canCreate: ['admin'],
-    canUpdate: ['members'],
-    
-    
+    canRead: ['admins'],
+    canUpdate: ['admins'],
   },
 
 };

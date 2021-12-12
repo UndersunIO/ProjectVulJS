@@ -16,7 +16,7 @@ That specific string is registered under the id \`datatable.new\`, so replacing 
 import { addStrings } from 'meteor/vulcan:core';
 
 addStrings('en', {
-  'datatable.new': 'New Movie',
+  'datatable.new': 'New candidacy',
 });
 ~~~
 `,

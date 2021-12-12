@@ -14,5 +14,6 @@ registerLocale({
 
 // uncomment on #Step19
  addStrings('en', {
-   'datatable.new': 'New Movie',
- });
+   'datatable.new': 'New candidacy',
+ 
+});
