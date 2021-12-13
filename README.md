@@ -1,7 +1,7 @@
 
 # Vulcan Starter
 
-If you are Meteor, after git clone this repository write in the folder project :
+after git clone this repository write in the folder project :
 
 Dans le dossier de Vulcan starter, installer meteor 2.2 : 
 
